@@ -1,0 +1,5 @@
+prim = int(input('Primeiro termo: '))
+q = int(input('Razão da P.G.: '))
+n = int(input('Número de ordem: '))
+an = prim * q ** (n-1)
+print(an)
